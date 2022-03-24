@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  background : black;
+  width : 100%;
+  display : flex;
+  color : white;
+  padding : 10px;
+  font-weight : 600;
+  font-size : 20px;
+}
+p {
+  margin-bottom: 0;
+}
+input {
+  width: 100px;
+}
+
+/* Table */
+Table {
+  text-align: center;
+  font-size: 14px;
+}
+input {
+  text-align: center;
+}
+
+/* ModifyComp */
+.black-bg{
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.black-background{
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.modify {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 50%;
+}
+.exit {
+  position: absolute;
+  right: 0;
+}
+.modify-btn {
+  position: relative;
+}
+
+/* Steps */
+.box {
+  border: 1px solid gray;
+}
